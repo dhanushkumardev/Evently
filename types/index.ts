@@ -6,7 +6,6 @@ export type CreateUserParams = {
     username: string | null;
     email: string;
     photo: string;
-
     lastSignInAt: number | null;
     createdAt: number;
     updatedAt: number;
@@ -150,4 +149,3 @@ export type SearchParamProps = {
     params: { id: string };
     searchParams: { [key: string]: string | string[] | undefined };
 };
-
