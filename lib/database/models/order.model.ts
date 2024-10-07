@@ -36,7 +36,7 @@ const orderSchema = new Schema({
         required: true,
         unique: true,
     },
-    totalAmmount: {
+    totalAmount: {
         type: Schema.Types.ObjectId,
         ref: "Event",
     },
